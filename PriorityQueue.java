@@ -13,5 +13,16 @@ public class PQ{
         System.out.println(pq.peek()); //print the top element of the queue
         System.out.println(pq.poll()); //remove the top element of the queue
         System.out.println(pq); //remove the top element of the queue        
+        
+        Queue<Integer>qp=new PriorityQueue<>(Comparator.reverseOrder());  //max heap
+        qp.offer(44); //push element to the priority queue
+        qp.offer(12);
+        qp.offer(60);
+        qp.offer(100);
+        System.out.println(qp); 
+        System.out.println(qp.peek()); //print the top element of the queue
+        System.out.println(qp.poll()); //remove the top element of the queue
+        System.out.println(qp); //remove the top element of the queue        
+ 
     }
 }
