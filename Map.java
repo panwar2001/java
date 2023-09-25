@@ -21,5 +21,7 @@ public class MAP{
         System.out.println(numbers.isEmpty());
         numbers.remove("Two");
         System.out.println(numbers);
+        System.out.println(numbers.get("One"));
+        
     }
 }

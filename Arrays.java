@@ -4,9 +4,7 @@ public class Array{
         Integer nums[]={1,2,3,4,5,6,7,9};
         int index=Arrays.binarySearch(nums,9);
         System.out.println(index);        
-        Arrays.sort(nums,(a,b){
-            return b-a;
-       });
+        Arrays.sort(nums,(a,b)->a-b);
         for(int i:nums){
                 System.out.print(i+" ");
         } 
@@ -14,5 +12,6 @@ public class Array{
         for(int i:nums){
                 System.out.print(i+" ");
         }
+
     }
 }

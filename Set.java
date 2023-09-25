@@ -1,3 +1,4 @@
+import student.Student;
 import java.util.Set;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
@@ -40,7 +41,9 @@ public class SET{
       System.out.println(s1.equals(s2));
     }
 }
- class Student{
+
+package student;
+public class Student{
     String name;
     int rollNo;
     public Student(String name,int rollNo){
